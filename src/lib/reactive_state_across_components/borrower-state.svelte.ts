@@ -1,11 +1,11 @@
 export type Borrower = {
-	id: number,
-	name: string,
-	user: {
+	id?: number,
+	name?: string,
+	user?: {
 		id: number,
 		name: string
 	},
-	books: [
+	books?: [
 		{
 			id: number,
 			title: string
