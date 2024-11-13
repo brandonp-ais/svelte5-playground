@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { getBorrower } from './borrower-state.svelte';
 
-	let borrower = getBorrower();
+	let borrower = $state(getBorrower());
 </script>
 
 <div class="border-gray-900 border-dashed border-2 p-2">
